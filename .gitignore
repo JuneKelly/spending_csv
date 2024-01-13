@@ -24,3 +24,6 @@ spending_csv-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Binary file 
+spending_csv
