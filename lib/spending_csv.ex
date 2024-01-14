@@ -35,7 +35,7 @@ defmodule SpendingCsv do
   end
 
   def print_csv(processed) do
-    IO.puts("date;price;description")
+    IO.puts("date;cost;description")
 
     Enum.each(processed, fn {date, price, description} ->
       Enum.join([date, price, description], ";") |> IO.puts()
