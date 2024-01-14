@@ -1,6 +1,13 @@
 # SpendingCsv
 
-**TODO: Add description**
+A simple program to convert spending records to CSV.
+
+## Usage
+
+```bash
+mix escript.build
+./spending_csv /some/input/path.yaml
+```
 
 ## Installation
 
@@ -18,4 +25,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/spending_csv>.
-
